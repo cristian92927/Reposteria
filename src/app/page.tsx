@@ -70,7 +70,7 @@ export default function ReposteriePage() {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <h1 className="text-3xl md:text-4xl font-bold text-pink-600 mb-4 md:mb-0">
-              Dulces Delicias
+              Kry cake
             </h1>
             <div className="flex items-center gap-4">
               <Link
@@ -145,7 +145,7 @@ export default function ReposteriePage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
-              <h2 className="text-2xl font-bold">Dulces Delicias</h2>
+              <h2 className="text-2xl font-bold">Kry cake</h2>
               <p className="text-pink-100">
                 Repostería artesanal para cada ocasión
               </p>

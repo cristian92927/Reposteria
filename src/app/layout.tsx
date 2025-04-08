@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Dulces Delicias | Repostería Artesanal",
+  title: "Kry Cake | Repostería Artesanal",
   description:
     "Descubre nuestra selección de productos de repostería artesanal. Pasteles, cupcakes, galletas y más. Haz tu pedido por WhatsApp.",
 };
