@@ -5,11 +5,15 @@ export default function ReposteriePage() {
   const products = [
     {
       id: 1,
-      name: "Pastel de Chocolate",
+      name: "Red velvet",
       description:
-        "Delicioso pastel de chocolate con ganache y fresas frescas.",
+        "El pastel de terciopelo rojo es un pastel en capas de color rojo con glaseado de queso crema.",
       price: "$350",
-      image: "/placeholder.svg?height=300&width=300",
+      images: [
+        "/images/products/red-velvet/RedVelvet.jpg",
+        "/images/products/red-velvet/Redvelvet1.jpg",
+        "/images/products/red-velvet/Redvelvet2.jpg",
+      ],
       whatsapp: "Hola, me interesa el Pastel de Chocolate. ¿Está disponible?",
     },
     {
@@ -17,7 +21,10 @@ export default function ReposteriePage() {
       name: "Cupcakes Variados",
       description: "Surtido de cupcakes con diferentes sabores y decoraciones.",
       price: "$180",
-      image: "/placeholder.svg?height=300&width=300",
+      images: [
+        "/placeholder.svg?height=300&width=300&text=Cupcakes+1",
+        "/placeholder.svg?height=300&width=300&text=Cupcakes+2",
+      ],
       whatsapp: "Hola, me interesan los Cupcakes Variados. ¿Están disponibles?",
     },
     {
@@ -25,7 +32,12 @@ export default function ReposteriePage() {
       name: "Galletas Decoradas",
       description: "Galletas artesanales decoradas con royal icing.",
       price: "$120",
-      image: "/placeholder.svg?height=300&width=300",
+      images: [
+        "/placeholder.svg?height=300&width=300&text=Galletas+1",
+        "/placeholder.svg?height=300&width=300&text=Galletas+2",
+        "/placeholder.svg?height=300&width=300&text=Galletas+3",
+        "/placeholder.svg?height=300&width=300&text=Galletas+4",
+      ],
       whatsapp:
         "Hola, me interesan las Galletas Decoradas. ¿Están disponibles?",
     },
@@ -34,7 +46,10 @@ export default function ReposteriePage() {
       name: "Tarta de Frutas",
       description: "Tarta fresca con crema pastelera y frutas de temporada.",
       price: "$280",
-      image: "/placeholder.svg?height=300&width=300",
+      images: [
+        "/placeholder.svg?height=300&width=300&text=Tarta+1",
+        "/placeholder.svg?height=300&width=300&text=Tarta+2",
+      ],
       whatsapp: "Hola, me interesa la Tarta de Frutas. ¿Está disponible?",
     },
     {
@@ -42,7 +57,11 @@ export default function ReposteriePage() {
       name: "Macarons Franceses",
       description: "Delicados macarons en variedad de sabores y colores.",
       price: "$220",
-      image: "/placeholder.svg?height=300&width=300",
+      images: [
+        "/placeholder.svg?height=300&width=300&text=Macarons+1",
+        "/placeholder.svg?height=300&width=300&text=Macarons+2",
+        "/placeholder.svg?height=300&width=300&text=Macarons+3",
+      ],
       whatsapp:
         "Hola, me interesan los Macarons Franceses. ¿Están disponibles?",
     },
@@ -51,7 +70,10 @@ export default function ReposteriePage() {
       name: "Cheesecake",
       description: "Cremoso cheesecake con coulis de frutos rojos.",
       price: "$320",
-      image: "/placeholder.svg?height=300&width=300",
+      images: [
+        "/placeholder.svg?height=300&width=300&text=Cheesecake+1",
+        "/placeholder.svg?height=300&width=300&text=Cheesecake+2",
+      ],
       whatsapp: "Hola, me interesa el Cheesecake. ¿Está disponible?",
     },
   ];

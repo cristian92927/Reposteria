@@ -1,13 +1,13 @@
-import Image from "next/image";
 import Link from "next/link";
 import { ShoppingBag } from "lucide-react";
+import { ImageGallery } from "../ui/ImageGallery";
 
 interface ProductCardProps {
   id: number;
   name: string;
   description: string;
   price: string;
-  image: string;
+  images: string[]; // Ahora es un array de imágenes
   whatsapp: string;
 }
 
@@ -15,7 +15,7 @@ export const ProductCard = ({
   name,
   description,
   price,
-  image,
+  images,
   whatsapp,
 }: ProductCardProps) => {
   const whatsappNumber = "573197332683";
@@ -26,15 +26,7 @@ export const ProductCard = ({
 
   return (
     <div className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover-lift glass-effect">
-      <div className="relative h-64 overflow-hidden">
-        <Image
-          src={image}
-          alt={name}
-          fill
-          className="object-cover group-hover:scale-110 transition-transform duration-500"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-      </div>
+      <ImageGallery images={images} alt={name} />
       <div className="p-6">
         <div className="flex justify-between items-start mb-2">
           <h3 className="text-xl font-bold gradient-text">{name}</h3>
