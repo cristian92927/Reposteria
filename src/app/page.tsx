@@ -13,8 +13,9 @@ export default function ReposteriePage() {
         "/images/products/red-velvet/RedVelvet.jpg",
         "/images/products/red-velvet/Redvelvet1.jpg",
         "/images/products/red-velvet/Redvelvet2.jpg",
+        // Puedes añadir más imágenes nuevas aquí
       ],
-      whatsapp: "Hola, me interesa el Pastel de Chocolate. ¿Está disponible?",
+      whatsapp: "Hola, me interesa el Red Velvet. ¿Está disponible?",
     },
     {
       id: 2,
@@ -22,24 +23,24 @@ export default function ReposteriePage() {
       description: "Surtido de cupcakes con diferentes sabores y decoraciones.",
       price: "$180",
       images: [
-        "/placeholder.svg?height=300&width=300&text=Cupcakes+1",
-        "/placeholder.svg?height=300&width=300&text=Cupcakes+2",
+        "/images/products/Cake/Cakes1.jpg",
+        "/images/products/Cake/Cakes2.jpg",
+        "/images/products/Cake/Cake3.jpg",
       ],
       whatsapp: "Hola, me interesan los Cupcakes Variados. ¿Están disponibles?",
     },
     {
       id: 3,
-      name: "Galletas Decoradas",
-      description: "Galletas artesanales decoradas con royal icing.",
+      name: "Tres Leches",
+      description:
+        "El pastel, tarta o torta de tres leches es un postre tradicional latinoamericano. Consiste en un bizcocho bañado con tres tipos de lácteo",
       price: "$120",
       images: [
-        "/placeholder.svg?height=300&width=300&text=Galletas+1",
-        "/placeholder.svg?height=300&width=300&text=Galletas+2",
-        "/placeholder.svg?height=300&width=300&text=Galletas+3",
-        "/placeholder.svg?height=300&width=300&text=Galletas+4",
+        "/images/products/Tres-leches/Tres_leches1.jpg",
+        "/images/products/Tres-leches/Tres_leches2.jpg",
+        "/images/products/Tres-leches/Tres_leches3.jpg",
       ],
-      whatsapp:
-        "Hola, me interesan las Galletas Decoradas. ¿Están disponibles?",
+      whatsapp: "Hola, me interesa la tres leches. ¿Está disponible?",
     },
     {
       id: 4,
